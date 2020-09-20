@@ -11,12 +11,13 @@
         "clear": "rimraf **/build",
         "lint": "tslint --fix '{src,__tests__}/**/*.ts'",
         "precommit": "npm run lint",
-        "tsc": "ts-node scripts/recursive-tsc && mpb"
+        "tsc": "ts-node scripts/recursive-tsc && mpb",
+        "mpp": "npm run tsc && mpp"
     },
     "dependencies": {
         "globby": "^11.0.1",
         "multiple-package-build": "^1.0.6",
-        "multiple-package-publish": "^1.0.8",
+        "multiple-package-publish": "^1.0.15",
         "tslib": "^2.0.1"
     },
     "devDependencies": {

@@ -2800,10 +2800,10 @@ multiple-package-build@^1.0.6:
     tslib "^1.13.0"
     yargs "^15.4.1"
 
-multiple-package-publish@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.npmjs.org/multiple-package-publish/-/multiple-package-publish-1.0.8.tgz#666cf21c08b1ec4b21db1deb15d8e38ab915bea3"
-  integrity sha512-lW3DgIUU8msNuYSg3Azh8ehOjo0p5LSeqAD7IAAEEct1aCyeQJKb6Xq+ocrl0jbAimP0Xf9yOJEjVm8cWak5Fw==
+multiple-package-publish@^1.0.15:
+  version "1.0.15"
+  resolved "https://registry.npmjs.org/multiple-package-publish/-/multiple-package-publish-1.0.15.tgz#06bc75d4cb999f1b536a4c53958eaccc83a2d3fa"
+  integrity sha512-1YTrQOTnf5Us5OMGBdNf31QBOcb0fsiAhz2F0VwhSfQDNqj1LPvQ27+MBwVAZQp4z9qaTB3PFikGUzAjzlmjfg==
   dependencies:
     chalk "^4.1.0"
     fs-extra "^9.0.1"

@@ -1,7 +1,7 @@
 {
-    "name": "@fe/utils",
+    "name": "feall-utils",
     "version": "0.0.1",
-    "description": "@fe/utils",
+    "description": "@fe-utils",
     "publishConfig": {
         "registry": "https://registry.npmjs.org"
     },
