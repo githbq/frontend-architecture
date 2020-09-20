@@ -17,7 +17,9 @@
         "lint": "tslint --fix '{src,__tests__}/**/*.ts'",
         "precommit": "npm run lint"
     },
-    "dependencies": {"tslib": "^2.0.1"},
+    "dependencies": {
+        "tslib": "^2.0.1"
+    },
     "devDependencies": {
         "@types/jest": "^26.0.13",
         "@types/node": "^12.12.53",
@@ -35,10 +37,14 @@
         "node-frontend-architecture"
     ],
     "husky": {
-        "hooks": {"pre-commit": "npm run lint"}
+        "hooks": {
+            "pre-commit": "npm run lint"
+        }
     },
     "author": "hubiqing",
-    "repository": "https://github.com/githbq/hbq-module-boilerplate.git",
-    "engines": {"node": ">=10"},
+    "repository": "https://github.com/githbq/node-frontend-architecture.git",
+    "engines": {
+        "node": ">=10"
+    },
     "license": "MIT"
 }
