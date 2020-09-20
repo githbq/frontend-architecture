@@ -5,7 +5,7 @@
     "publishConfig": {
         "registry": "https://registry.npmjs.org"
     },
-    "main": "build/index.js",
+    "main": "run.js",
     "scripts": {
         "start:build": "npm run tsc && node build",
         "start": "node run",

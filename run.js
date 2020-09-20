@@ -1,6 +1,3 @@
- require('ts-node/register')
+require('ts-node/register')
 
- require('./src/index.ts')
-     //tsconfig 帮助文档地址
-     //https://zhongsp.gitbooks.io/typescript-handbook/content/doc/handbook/tsconfig.json.html
-     //https://tslang.cn/docs/handbook/compiler-options.html
+console.log('node-frontend-architecture 开发中，敬请期待')
