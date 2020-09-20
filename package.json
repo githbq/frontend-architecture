@@ -1,6 +1,6 @@
 {
     "name": "node-frontend-architecture",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "node-frontend-architecture",
     "publishConfig": {
         "registry": "https://registry.npmjs.org"

@@ -6,7 +6,7 @@
 
 ## 功能介绍
 
-1. cli 工程 
+1. cli 脚手架 
 2. node 渲染、api聚合服务   
 3. vue、react、node-api脚手架
 4. 基础中间件
