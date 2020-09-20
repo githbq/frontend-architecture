@@ -15,14 +15,25 @@
         "strictNullChecks": false,
         "allowUnreachableCode": true,
         "newLine": "LF",
-        "lib": ["es2017"],
-        "typeRoots": ["node_modules/@types"],
-        "types": ["jest", "node"],
+        "lib": [
+            "es2017"
+        ],
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "types": [
+            "jest",
+            "node"
+        ],
         "outDir": "./build",
-        "rootDir": "./src"
+        "rootDir": "./scripts"
     },
-    "include": ["./src/**/*"],
-    "exclude": ["**/node_modules/**/*"],
+    "include": [
+        "./scripts/**/*"
+    ],
+    "exclude": [
+        "**/node_modules/**/*"
+    ],
     "compileOnSave": false,
     "buildOnSave": false
 }

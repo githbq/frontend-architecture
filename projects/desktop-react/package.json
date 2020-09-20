@@ -1,17 +1,21 @@
 {
-    "name": "node-frontend-architecture",
-    "version": "1.0.1",
-    "description": "node-frontend-architecture",
+    "name": "@fe/desktop-react",
+    "version": "0.0.1",
+    "description": "@fe/desktop-react",
     "publishConfig": {
         "registry": "https://registry.npmjs.org"
     },
-    "main": "run.js",
+    "main": "./build/index.js",
     "scripts": {
+        "start:build": "npm run tsc && node build",
+        "start": "node run",
         "test": "jest --forceExit --detectOpenHandles --colors",
-        "clear": "rimraf **/build",
+        "clear": "rimraf build",
+        "tsc": "npm run clear && tsc",
+        "tsc:w": "npm run tsc -- -w",
+        "p": "npm run tsc && npm publish",
         "lint": "tslint --fix '{src,__tests__}/**/*.ts'",
-        "precommit": "npm run lint",
-        "tsc": "ts-node scripts/recursive-tsc && mpb"
+        "precommit": "npm run lint"
     },
     "dependencies": {
         "globby": "^11.0.1",
